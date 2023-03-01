@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEDF2"
+    tools:context=".info">
+
+    <TextView
+        android:id="@+id/calculadora"
+        android:layout_width="238dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/interbold"
+        android:gravity="center_vertical"
+        android:text="Calculadora"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/calculadora2"
+        android:layout_width="293dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="57dp"
+        android:fontFamily="@font/interbold"
+        android:gravity="center_vertical"
+        android:text="Acerca de la Calculadora"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculadora" />
+
+    <TextView
+        android:id="@+id/calculadora3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="@font/interbold"
+        android:gravity="center_vertical"
+        android:text="Nombre de la aplicación: Calculadora\n\nVersión actual: 1.0\n\nEs una aplicación fácil de usar que te permite realizar cálculos matemáticos básicos con facilidad.\n\nPolítica de privacidad: La aplicación no recopila ni utiliza información personal del usuario.\n\nLicencia: La aplicación está disponible bajo una licencia de uso gratuito y sin restricciones.\n\nInformación sobre el desarrollo: Desarrollado por Pablo José Restrepo Ruiz.\n\nPara mas información puede consultar los siguientes enlaces:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/buttoncalculadora"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/calculadora"
+        android:contentDescription="buttoncalculadora"
+        android:fontFamily="@font/inter"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttongithub"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/github"
+        android:contentDescription="buttongithub"
+        android:fontFamily="@font/inter"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculadora3" />
+
+    <Button
+        android:id="@+id/buttonin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/in"
+        android:contentDescription="buttonin"
+        android:fontFamily="@font/inter"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/buttongithub"
+        app:layout_constraintTop_toBottomOf="@+id/calculadora3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculadora2"
+        app:srcCompat="@drawable/linea" />
+</androidx.constraintlayout.widget.ConstraintLayout>
