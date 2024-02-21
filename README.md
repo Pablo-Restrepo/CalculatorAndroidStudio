@@ -16,7 +16,7 @@ percentage, multiplication and division.
 # Installation
 Clone the repository:
 ```
-git clone https://github.com/pablo736/CalculatorAndroidStudio.git
+git clone https://github.com/Pablo-Restrepo/CalculatorAndroidStudio.git
 ```
 # Free Mockup in Figma
 ## [Test Mockup Online](https://www.figma.com/proto/QADva8HTILy59uMeAOnhLU/Calculadora?node-id=2%3A2&starting-point-node-id=2%3A2)
