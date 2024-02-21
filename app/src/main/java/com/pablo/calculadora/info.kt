@@ -26,14 +26,14 @@ class info : AppCompatActivity() {
         }
 
         buttongithub.setOnClickListener {
-            val url = "https://github.com/Pablo736" // Reemplaza esto con la URL que deseas abrir
+            val url = "https://github.com/Pablo-Restrepo"
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(url)
             startActivity(intent)
         }
 
         buttonin.setOnClickListener {
-            val url = "https://www.linkedin.com/in/pablo-jos%C3%A9-restrepo-ruiz-244a07261/" // Reemplaza esto con la URL que deseas abrir
+            val url = "https://www.linkedin.com/in/pablo-jose-restrepo/"
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(url)
             startActivity(intent)
